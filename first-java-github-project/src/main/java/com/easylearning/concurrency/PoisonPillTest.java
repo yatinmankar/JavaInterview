@@ -3,10 +3,6 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
-import ConsumerThread;
-import ProducerThread;
-import SharedResource;
-
 public class PoisonPillTest {
 
 	public static void main(String[] args) throws InterruptedException {

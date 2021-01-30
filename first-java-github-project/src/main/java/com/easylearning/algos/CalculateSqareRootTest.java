@@ -31,9 +31,9 @@ public class CalculateSqareRootTest {
 		CalculateSqareRootTest.calculateSqrt(15);
 		CalculateSqareRootTest.calculateSqrt(4);
 
-		System.out.println("Square of "+ num + " is: "+ Math.pow(12, 2));
-		System.out.println("Cube of "+ num + " is: "+ Math.pow(12, 3));
-		System.out.println("Square Root of "+ num + " is: "+ Math.sqrt(12));
+		System.out.println("Square of  is: "+ Math.pow(12, 2));
+		System.out.println("Cube of   is: "+ Math.pow(12, 3));
+		System.out.println("Square Root of  is: "+ Math.sqrt(12));
 
 	}
 
