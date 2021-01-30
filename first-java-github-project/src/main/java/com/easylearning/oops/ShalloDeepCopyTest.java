@@ -1,6 +1,7 @@
 package com.easylearning.oops;
 import java.util.ArrayList;
 import java.util.LinkedList;
+import java.util.List;
 
 class Course implements Cloneable{
 	String cname1;
@@ -91,7 +92,7 @@ public class ShalloDeepCopyTest {
 
 		
 		Course c1=new Course("HSc","science");
-		LinkedList list=new LinkedList();
+		ArrayList list=new ArrayList();
 		list.add(1);
 		Student s1=new Student("1",c1,list);
 		Student s2=(Student)s1.clone();
